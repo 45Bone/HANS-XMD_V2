@@ -9,8 +9,8 @@ const chalk = require('chalk')
 require('dotenv').config()
 
 //contact details - sensitive info moved to .env
-global.SESSION_ID = process.env.SESSION_ID || "HansTz&Gl5EEQDS#6nyFCOCRUXOaitmLbsQXotuOMz3e2gcGvS2d7T9cgzk" //fallback to default if not in .env
-global.ownernomer = process.env.OWNER_NUMBER || "255614195217"
+global.SESSION_ID = process.env.SESSION_ID || "HansTz&r0JXjBhB#GkXwmJBdc6N8kIwzyXTEQilEHtzbRsFLKyb2XHlglyg" //fallback to default if not in .env
+global.ownernomer = process.env.OWNER_NUMBER || "2349136279816"
 
 global.ownername = process.env.OWNER_NAME || "HansTech"
 
@@ -20,7 +20,7 @@ global.socialm = "GitHub: Mrhanstz"
 
 global.location = "AFRICA, TANZANIA, DODOMA"
 
-global.ownernumber = process.env.OWNER_NUMBER || '255614195217'  //Owner number
+global.ownernumber = process.env.OWNER_NUMBER || '2349136279816'  //Owner number
 
 global.ownername = process.env.OWNER_NAME || 'HANSTZ' //owner name
 global.botname = 'HANS-XMD' //name of the bot
